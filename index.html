@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valtoco</title>
+    <style>
+
+        </style>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body onload="init();" style="margin:0px;">
+    <script type="text/javascript">
+        var clickTag = "https://www.google.com/";
+    </script>
+    
+    <div id="animation_container" style="background-color:#004c56; width:300px; height:600px">
+		<a href="javascript:void(window.open(clickTag))">
+            <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:300px; height:600px; position: relative; left: 0px; top: 0px; display: block;background-color: #008299;">
+                <img class="background" src="images/frame1/background F1 300x600.png" alt="" style="width: 300px; height: auto; position: absolute; top: 1px; left: 0px;z-index: 1;">
+                
+                <!-- 1st frame -->
+                <img class="animate fadeUp delay2" id="sprayer" src="images/frame1/VCO_Sprayer F1 300x600.png" alt="" style="position: absolute; width: 579px; height: auto; top: -275px; left: -141px;z-index: 3; opacity: 0;"> <!-- in frame 4 -- w318px, top26px, left -9px -->
+                <img src="images/frame1/FOR EPISODES OF F1 300x600.png" id="copy1F1" style="width:263px; height:auto; position: absolute; left: 19px; top: 10px;z-index: 1; opacity: 1;">
+                
+                <img class="animate fadeUp delay1" src="images/frame1/The confidence F1 300x600.png" id="copy2F1" style="width:263px; height:auto; position: absolute; left: 19px; top: 70px;z-index: 1; opacity: 0;">
+                <img class="animate fadeUp delay1" src="images/frame1/JUST GO F1 300x600.png" id="copy3F1" style="width:263px; height:auto; position: absolute; left: 19px; top: 93px;z-index: 1; opacity: 0;">
+                
+                <!-- 2nd frame -->
+                <img class="animate fade" src="images/frame2/Gradient F2 300x600.png" id="copy1F2" style="width:300px; height:auto; position: absolute; left: 0px; top: 0px;z-index: 2; opacity: 0;">
+                
+                <img class="animate fadeUp" src="images/frame2/With a reliable F2 300x600.png" id="copy1F2" style="width:300px; height:auto; position: absolute; left: 0px; top: 0px;z-index: 2; opacity: 0;">
+                <img class="animate fade" src="images/frame2/VCO_Seasonality F2 300x600.png" id="bg2F2" style="position: absolute; width: 579px; height: auto; top: -275px; left: -141px;z-index: 2; opacity: 0;">
+                <img class="animate fade" src="images/frame2/VCO_Seasonality 2 F2 300x600.png" id="bg3F2" style="position: absolute; width: 579px; height: auto; top: -275px; left: -141px;z-index: 2; opacity: 0;">
+                
+
+                <!-- 3rd frame -->
+                <img class="animate fadeUp" src="images/frame3/For ages 6  F3 300x600.png" id="copy1F3" style="width:300px; height:auto; position: absolute; left: -5px; top: 25px;z-index: 2; opacity: 0;">
+
+                <!-- 4th frame -->
+                <img class="animate fadeUp" src="images/frame4/imagine F5 300x600.png" id="copy1F4" style="width:318px; height:auto; position: absolute; left: -9px; top: 26px;z-index: 3; opacity: 0;">
+                <img class="animate fadeUp" src="images/frame4/imagine F5 300x600.png" id="copy1F4" style="width:318px; height:auto; position: absolute; left: -9px; top: 26px;z-index: 3; opacity: 0;">
+
+                
+                <img class="animate fadeUp" src="images/frame4/VCO_Seasonality F4 300x600.png" id="bg1F4" style="width:318px; height:auto; position: absolute; left: -9px; top: 26px;z-index: 2; opacity: 0;">
+                <img class="animate fadeUp" src="images/frame4/VCO_Seasonality green F4 300x600.png" id="bg2F4" style="width:318px; height:auto; position: absolute; left: -9px; top: 26px;z-index: 2; opacity: 0;">
+                <img class="animate fadeUp" src="images/frame4/VCO_Seasonality.png" id="bg3F4" style="width:318px; height:auto; position: absolute; left: -9px; top: 26px;z-index: 2; opacity: 0;">
+
+                <!-- 6th frame -->
+                <img class="animate fadeUp delay2" id="sprayerF6" src="images/frame1/VCO_Sprayer F1 300x600.png" alt="" style="position: absolute; width: 579px; height: auto; top: -275px; left: -141px;z-index: 3; opacity: 0">
+                <img class="animate fadeUp delay2" id="copy1F6" src="images/frame6/WHY WAIT_ imagine F6 300x600.png" alt="" style="position: absolute; width: 132px; height: auto; top: 90px; left: 84px;z-index: 3; opacity: 0">
+                <img class="animate fadeUp delay2" id="CTAF6" src="images/frame6/CTA F6 300x600.png" alt="" style="position: absolute; width: 579px; height: auto; top: 121px; left: -141px;z-index: 3; opacity: 0">
+                <!-- fixed frame -->
+                <img class="" id="footer-bar" src="images/frame1/BAR F1 300x600.png" alt="" style="position: absolute; width: 300px; top: 400px; left: 0px;z-index: 2;">
+                <img src="images/VCO Patient disclaimer 300x600.png" id="disclaimer" style="width:300px; height:auto; position: absolute; left: 0px; top: 418px;opacity: 1;">
+                
+            </div>
+        </a>
+	</div>
+</body>
+</html>
